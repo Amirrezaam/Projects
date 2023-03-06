@@ -22,7 +22,7 @@ function App() {
         <SideBar />
         <LatestTracks />
         <Routes>
-          <Route path="/search/query=:query" element={<SearchPage />} />
+          <Route path="/search/query=:quey" element={<SearchPage />} />
           <Route path="/song_details/:songId" element={<SongDetails />} />
           <Route path="/favorites" element={<Favorite />} />
           <Route path="/playlist/query=:playlistName" element={<Playlist />} />
